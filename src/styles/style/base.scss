@@ -1,0 +1,353 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1rem;
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+	background-color: #F3F6FB;
+}
+
+td,
+th,
+caption {
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font: 14px "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+	outline: none;
+	user-select: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: inline-block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/*公共类*/
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.show {
+	display: block;
+}
+
+.f14{
+	font-size: 14px !important;
+}
+
+.f16{
+	font-size: 16px !important;
+}
+
+.f18{
+	font-size: 18px !important;
+}
+
+.f20{
+	font-size: 20px !important;
+}
+
+.mr5{
+	margin-right: 5px !important;
+}
+
+.mr10{
+	margin-right: 10px !important;
+}
+
+.mr20{
+	margin-right: 20px !important;
+}
+
+.mr50{
+	margin-right: 50px !important;
+}
+
+.ml5{
+	margin-left: 5px !important;
+}
+
+.ml10{
+	margin-left: 10px !important;
+}
+
+.ml20{
+	margin-left: 20px !important;
+}
+
+.ml50{
+	margin-left: 50px !important;
+}
+
+.mt5{
+	margin-top: 5px !important;
+}
+
+.mt10{
+	margin-top: 10px !important;
+}
+
+.mt20{
+	margin-top: 20px !important;
+}
+
+.mt50{
+	margin-top: 50px !important;
+}
+
+.mb5{
+	margin-bottom: 5px !important;
+}
+
+.mb10{
+	margin-bottom: 10px !important;
+}
+
+.mb20{
+	margin-bottom: 20px !important;
+}
+
+.mb50{
+	margin-bottom: 50px !important;
+}
+
+.mb150{
+	margin-bottom: 150px !important;
+}
+
+.mb220{
+	margin-bottom: 220px !important;
+}
+
+.pd15{
+	padding: 15px;
+}
+.pl10{
+	padding-left: 10px;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+// 设置ele-table标题字段星号
+th.required-red .cell::before{
+	content: '*';
+	color: red;
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.blue{
+	color: #7CA870 !important;
+}
+
+// 设置ele-table标题字段星号
+th.required-red .cell::before{
+	content: '*';
+	color: red;
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.relative{
+	position: relative;
+}
+
+.absolute-checkbox {
+	position: absolute !important;
+	right: 0;
+	top: -40px;
+}
+
+.hide {
+	display: none;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+	margin: 0;
+}
+textarea{
+	resize:none;
+}
+// input[type='number']::-webkit-outer-spin-button,
+// input[type='number']::-webkit-inner-spin-button,
+// input[type="number"] {
+//     -webkit-appearance: none;
+//     margin: 0;
+// }
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+// ::-webkit-scrollbar {
+//     width: 6px;
+//     height: 6px;
+//     background-color: #f5f5f5;
+//   }
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+// ::-webkit-scrollbar-track {
+//     -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+//     border-radius: 5px;
+//     background-color: #f5f5f5;
+// }
+
+/*定义滑块 内阴影+圆角*/
+
+// ::-webkit-scrollbar-thumb {
+//     border-radius: 5px;
+//     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//     background-color: #f5f5f5;
+// }
+
+.layout-content {
+	height: calc(100vh - 126px);
+	overflow-y: auto;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.white {
+	color: white;
+}
+
+button, input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.red {
+	color: red;
+}
+
+.top-sticky {
+	position: sticky;
+	top: 0px;
+	z-index: 99999;
+}
+
+.van-button {
+	margin-left: 10px !important;
+}

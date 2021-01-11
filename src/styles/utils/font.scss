@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1821146 */
+    src: url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.eot');
+    src: url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1821146_9mwc9obyfdm.svg#iconfont') format('svg');
+  }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+// 刷新
+.ck-icon-reflesh::before {
+    content: "\e64d"
+}
+
+
+// 查找
+.ck-icon-search::before {
+    content: "\e626"
+}
+
+
+// 新增1
+.ck-icon-add::before {
+    content: "\e61e"
+}
+
+
+// 新增2
+.ck-icon-add2::before {
+    content: "\e62d"
+}
+
+
+// 复制
+.ck-icon-copy::before {
+    content: "\e60a"
+}
+
+
+// 移动
+.ck-icon-move::before {
+    content: "\e653"
+}
+
+
+// 解封
+.ck-icon-unlock::before {
+    content: "\e658"
+}
+
+
+// 审核
+.ck-icon-examine::before {
+    content: "\e602"
+}
+
+
+// 打印预览
+.ck-icon-print-preview::before {
+    content: "\e60c"
+}
+
+
+// 编辑
+.ck-icon-edit::before {
+    content: "\e60e"
+}
+
+
+// 编辑 - 笔形
+.ck-icon-edit-pen::before {
+    content: "\e8cf"
+}
+
+
+// 删除
+.ck-icon-del::before {
+    content: "\e614"
+}
+
+
+// 浏览
+.ck-icon-browse::before {
+    content: "\e64f"
+}
+
+
+// 保存
+.ck-icon-save::before {
+    content: "\e601"
+}
+
+
+// 上传
+.ck-icon-upload::before {
+    content: "\e628"
+}
+
+
+// 打印
+.ck-icon-print::before {
+    content: "\e6e7"
+}
+
+
+// 返回
+.ck-icon-back::before {
+    content: "\e722"
+}
+
+
+// 卡片模式
+.ck-icon-cardpattern::before {
+    content: "\e674"
+}
+
+
+// 选择
+.ck-icon-choose::before {
+    content: "\e67b"
+}
+
+
+// 排序
+.ck-icon-sort::before {
+    content: "\e65f"
+}
+
+
+// 导出
+.ck-icon-export::before {
+    content: "\e63d"
+}
+
+
+// 退出
+.ck-icon-quit::before {
+    content: "\e688"
+}
+
+
+// 文件夹
+.ck-icon-folder::before {
+    content: "\e6aa"
+}
+
+
+// 文件
+.ck-icon-file::before {
+    content: "\e960"
+}
+
+// 文件2
+.ck-icon-file2::before {
+    content: "\e793"
+}
+
+// 加号，展开
+.ck-icon-plus::before {
+    content: "\e600"
+}
+
+// 减号，收缩
+.ck-icon-minus::before {
+    content: "\e655"
+}
+
+// 向上
+.ck-icon-up::before {
+    content: "\e656"
+}
+
+// 向下
+.ck-icon-down::before {
+    content: "\ebb4"
+}
+
+// 添加
+.ck-icon-add::before {
+    content: "\e613"
+}
+
+// 左箭头
+.ck-icon-leftarrow::before {
+    content: "\e646"
+}
+
+// 下箭头
+.ck-icon-downarrow::before {
+    content: "\e6cc"
+}
+
+.ck-imgicon {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,43 @@
+// 左侧导航icon
+
+
+.ck-button-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-size: 100%;
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-right: 4px;
+}
+
+h1.ck-subnav-caption{
+	line-height: 2;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wordWrap {
+	word-wrap:break-word;
+}
+
+.w100 {
+	width: 100%!important;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+.vertical-align-bottom {
+	vertical-align:baseline;
+}
+
+.input-text-right {
+	/deep/ .van-field__control {
+		text-align: right;
+	}
+	/deep/ .van-field__error-message {
+		text-align: right;
+	}
+}
