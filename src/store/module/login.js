@@ -9,7 +9,7 @@ const login = {
 			try {
 				// 发送
 				// const url = `${api.login.login}`
-				// const res = await fetch.get(url, payload)
+				// const res = await fetch.get(url, { params: payload })
 				// if (res.code === 1) {
 					const token = 'jjdhhffjfhfj'
 					const loginInfo = {UserId: 11}
@@ -26,7 +26,7 @@ const login = {
 		async A_GET_USER_INFO ({commit, dispatch}, payload) {
 			try {
 				const url = `${api.login.getUserInfo}`
-				const res = await fetch.get(url, payload)
+				const res = await fetch.post(url, payload)
 				return res
 			} catch (e) {
 				console.log(e)
