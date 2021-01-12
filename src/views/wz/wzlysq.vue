@@ -51,7 +51,7 @@
 				/>
 				<van-popup v-model="dateShowPicker" position="bottom">
 					<van-datetime-picker
-						type="datehour"
+						type="datetime"
 						@confirm="onDateConfirm"
 						@cancel="dateShowPicker = false"
 					/>
