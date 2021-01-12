@@ -127,8 +127,10 @@ export default {
 			applyPhone: '',
 			applyDate: '',
 			applyStore: '',
+			applyStoreID: '',
 			applyNote: '',
 			department: '',
+			departmentID: '',
 			dptColumns: [
 				{ uid: '11', text: '泌尿科' },
 				{ uid: '22', text: '内科' },
@@ -177,6 +179,7 @@ export default {
 		},
 		onDptConfirm (dpt) {
 			this.department = dpt.text
+			this.departmentID = dpt.uid
 			this.dptShowPicker = false
 		},
 		onDateConfirm(time) {
@@ -185,6 +188,7 @@ export default {
 		},
 		onStoreConfirm (store) {
 			this.applyStore = store.text
+			this.applyStoreID = store.uid
 			this.storeShowPicker = false
 		},
 		handleSelectGoods () {
