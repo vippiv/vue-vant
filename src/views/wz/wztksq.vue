@@ -69,6 +69,7 @@
 				/>
 				<van-popup v-model="storeShowPicker" position="bottom">
 					<van-picker
+						value-key='name'
 						show-toolbar
 						:columns="storeColumns"
 						@confirm="onStoreConfirm"
@@ -134,9 +135,9 @@ export default {
 				{ uid: '33', text: '外科' }
 			],
 			storeColumns: [
-				{ uid: '11', text: '后勤仓库' },
-				{ uid: '22', text: '内部仓库' },
-				{ uid: '33', text: '外补仓库' }
+				{ uid: '11', name: '后勤仓库' },
+				{ uid: '22', name: '内部仓库' },
+				{ uid: '33', name: '外补仓库' }
 			],
 			selectWZ: [],
 			columns: ['杭州', '宁波', '温州', '嘉兴', '湖州'],
@@ -183,7 +184,7 @@ export default {
 			this.dateShowPicker = false
 		},
 		onStoreConfirm (store) {
-			this.applyStore = store.text
+			this.applyStore = store.name
 			this.storeShowPicker = false
 		},
 		handleSelectGoods () {
